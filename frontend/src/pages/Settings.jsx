@@ -1,10 +1,10 @@
 import DashboardLayout from "../components/layout/DashboardLayout";
 
-export default function Dashboard() {
+export default function Settings() {
   return (
     <DashboardLayout>
-      <h1>Dashboard</h1>
-      <p>Summary cards will go here.</p>
+      <h1>Settings</h1>
+      <p>Profile + theme toggle will go here.</p>
     </DashboardLayout>
   );
 }
