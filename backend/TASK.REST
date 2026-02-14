@@ -18,4 +18,4 @@ Content-Type: application/json
 
 ### /me
 GET http://localhost:4000/auth/me
-Authorization: Bearer <token>
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJ0ZXN0QHRlc3QuY29tIiwiaWF0IjoxNzcxMDU2NjY4LCJleHAiOjE3NzExNDMwNjh9.MTwyJ8zlPOV_QJrymvtx2zSkcN8-ESLDZDp9QqAPEgk
