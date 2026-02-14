@@ -1,13 +1,13 @@
+import "dotenv/config";
+
 import express from "express";
 import cors from "cors";
 import authRoutes from "./routes/authRoutes.js";
-import dotenv from "dotenv";
 
-dotenv.config();
 if (!process.env.PORT) {
   PORT = 4000;
 }
-PORT = process.env.PORT;
+const PORT = process.env.PORT;
 
 const app = express();
 
